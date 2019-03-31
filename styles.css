@@ -21,7 +21,11 @@
    */
   
   body {
-    margin: 0;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #999;
+    font-size: 100%;
   }
   
   /**
@@ -36,10 +40,28 @@
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
+
+  div {
+    padding: 25px 50px;
+  }
+
+  .intro{
+    background-color: blanchedalmond;
+    color: rgb(23, 12, 175); 
+    font-weight: bold; 
+    padding: 10px 10px;
+  }
   
   h1 {
     font-size: 2em;
     margin: 0.67em 0;
+  }
+
+  #favorite{
+    padding: 15px 15px;
+    font-weight: bolder;
+    color: red;
+    background-color: blanchedalmond;
   }
   
   /* Grouping content
